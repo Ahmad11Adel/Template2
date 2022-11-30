@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+    
+}
+
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgb(31, 30, 30);
+    width: 8%;
+    height: 100%;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+}
+a:hover{
+    background-color: black;
+}
+#secondchild{
+    background-color: black; 
+}
+#secondchild:hover{
+    background-color: gray;
+}
+.fa-solid{
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+a {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    text-align: center;
+    padding :25px 0 ;
+}
+
+
+
+
+.heading {
+    background-color: black;
+    padding: 85px 16px;
+    text-align: center;
+    color: white;
+}
+.heading h1{
+    font-size: 64px;
+    font-weight: 1000;
+    margin: 10px 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+.heading p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+
+.section2{
+    padding: 80px 300px;
+    text-align: justify;
+    background-color: black;
+
+}
+.section2 h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 30px 0;
+    padding: 0;
+}
+.section2 hr{
+    width: 250px;
+    opacity: 0.6;
+}
+.section2 p{
+    color: #757575;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+}
+ 
+h1{
+    color: white;
+    padding: 10px 300px;
+    background-color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+#paragraph{
+    padding: 20px 300px;
+    color: #757575;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    letter-spacing: 5px;
+}
+.white{
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    margin-left: 295px;
+}
+.grey{
+    width: 95%;
+    background-color: #616161;
+    height: 100%;
+}
+.color{
+    background-color: black;
+}
+
+.box{
+    display: flex;
+    padding: 50px 290px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    
+
+
+}
+.boxchild{
+    background-color: #f1f1f1;
+    width: 25%;
+    height: 100%;
+    color: black;
+    height: 100px;
+    padding-top: 30px;
+    font-family: 'Montserrat ', sans-serif;
+}
+
+
+button{
+    
+    
+    margin-left: 290px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 50px;
+    
+}
+.buttoncolor{
+    background-color: black;
+}
+
+button:hover{
+    background-color:gray ;
+    cursor: pointer;
+}
+.fa-download{
+    font-size: smaller;
+}
+
+
+
+.myprice{
+    margin-bottom: 30px;
+}
+.flexprice{
+    display: flex;
+    padding: 50px 290px;
+    background-color: black;
+    color: white;
+    
+    
+}
+.flexprice h1{
+    padding: inherit;
+
+}
+.first ul{
+    width: 550px;
+    padding: 0 10px;
+    list-style: none;
+    opacity: 0.5;
+    
+}
+.first ul:hover{
+    opacity: 1;
+}
+.first ul li {
+    padding: 20px 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat ', sans-serif;
+    
+}
+.first h1{
+    padding: 20px 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat ', sans-serif;
+
+}
+.first button{
+    margin: 0;
+    width: 100px;
+    border-width: 0px;
+    background-color: white;
+}
+.first button:hover{
+    background-color: black;
+    color: white;
+}
+
+.thethird {
+    padding: 50px 290px;
+    background-color: black;
+    color: white;
+    padding-bottom: 120px ;
+    
+}
+.thethird h1 {
+    padding: 0;
+    margin-bottom: 20px;
+
+}
+.thethird img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+}
+.thethird p{
+    font-family: 'Montserrat ', sans-serif;
+    color: #757575;
+    margin-top: 20px;
+}
+
+
+.girdphotos{
+    background-color: black;
+    padding:  50px 6px;
+    
+    
+   
+
+}
+.girdphotos h1{
+    color: #f1f1f1;
+    
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+}
+.girdphotos hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 290px;
+    opacity: 0.60;
+    width: 200px;
+}
+    
+.gird1{
+    display: inline-flex;
+    flex-direction: column;
+    
+    height: auto;
+    width: 32%;
+    padding-left: 290px;
+    box-sizing: content-box;
+    padding-top: 10px;
+    top: -140px;
+    position: relative;
+ 
+}
+.gird1 img {
+    padding-bottom: 10px;
+}
+.gird2{
+    display: inline-flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 10px;
+    width: 30%;
+    padding-left: 10px;
+    justify-content: stretch;
+
+}
+.gird2 img {
+    padding-bottom: 10px;
+
+}
+
+
+.contectme{
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.finally p{
+    font-family: 'Montserrat Alternates', sans-serif; 
+    color: #616161;
+    font-weight: bold;
+}
+.finally :placeholder-shown{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #616161;
+    font-weight: bold;
+}
+.finally button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+ 
+.fa-brands{
+    transform: scale(1.6);
+   margin-right: 10px;
+   margin: top 10px; ;
+   margin-bottom:10px ;
+}
+.fa-brands:hover{
+    opacity: 0.6;
+}
+
+.footer a{
+    color: #616161;
+}
+.footer a:hover{
+    color: rgb(53, 208, 53);
+}
+.footer  a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+.footer p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
